@@ -4,7 +4,7 @@
   "description": "A bot so I quit forgetting when to take out the fucking recycling.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
