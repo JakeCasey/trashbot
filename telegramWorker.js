@@ -3,6 +3,7 @@ let { bot } = require('./telegram.js');
 
 function reminder() {
   console.log('Attempting to send message.');
+  // Your chat ID
   bot.telegram.sendMessage(
     process.env.TELEGRAM_CHAT_ID,
     '♻️🗑️♻️ Take out the Recycling you dumb fuck. ♻️🗑️♻️'

@@ -14,13 +14,4 @@ let dates = [
   moment('2020-12-28').startOf('day').format(),
 ];
 
-// Moment objects.
-function dateComparison(a, b) {
-  if (a.isSame(b)) {
-    return 1;
-  } else {
-    return -1;
-  }
-}
 module.exports.dates = dates;
-module.exports.dateComparison = dateComparison;

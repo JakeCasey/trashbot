@@ -1,5 +1,5 @@
 let { reminder } = require('./telegramWorker');
-let { dates, dateComparison } = require('./dates.js');
+let { dates } = require('./dates.js');
 let moment = require('moment');
 var CronJob = require('cron').CronJob;
 var job = new CronJob(
